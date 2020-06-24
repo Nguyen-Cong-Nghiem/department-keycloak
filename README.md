@@ -6,6 +6,7 @@ Follow by article:
 https://medium.com/@bcarunmail/securing-rest-api-using-keycloak-and-spring-oauth2-6ddf3a1efcc2
 
 1, Install keycloak with docker
+---------------------------------------------------
 
 Keycloak on Docker
 
@@ -15,6 +16,7 @@ B1. Pull image mới nhất của keycloak về.
 B2. Run image để tạo container.
 
 2, Build project springboot with oauth2
+-----------------------------------------------------
 Example: department-service and employee-servic
 
 version will working by spring boot parent: 
@@ -27,6 +29,7 @@ version will working by spring boot parent:
     `
     
 3, Test: 2 way to get token from keycloak by postman
+-----------------------------------------------------
    
 Solution 1 : get token by request of oauth2, follow 
 
